@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "NCS Joint Energy Project"
+  author: "Li Yang Hew"
+  date: "2/6/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
